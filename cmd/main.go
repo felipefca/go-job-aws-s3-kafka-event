@@ -38,6 +38,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	defer kafkaClient.Close()
 
 	logger.Info("Kafka Client connected!")
 

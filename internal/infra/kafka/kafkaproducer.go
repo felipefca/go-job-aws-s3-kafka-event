@@ -24,7 +24,7 @@ type kafkaProducer struct {
 	schemaMetadata schemaregistry.SchemaMetadata
 }
 
-func NewKafkaProducer(producer sarama.SyncProducer, config configs.Kafka) (*kafkaProducer, error) {
+func NewKafkaProducer(producer sarama.SyncProducer, config configs.Kafka) (KafkaProducer, error) {
 	schemaRegistry := schemaregistry.NewConfig(config.SchemaRegistryUrl)
 
 	schemaClient, err := schemaregistry.NewClient(schemaRegistry)
