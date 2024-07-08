@@ -22,7 +22,7 @@ A Go job to read files from folders in AWS S3 bucket and stream the contents in 
 
 * [![Go][Go-badge]][Go-url]
 * [![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-v3.0-orange.svg)](https://kafka.apache.org/)
-* [![AWS S3][AWS S3-badge]][AWS S3-url]
+* [![AWS S3](https://img.shields.io/badge/AWS-S3-FF9900.svg)](https://aws.amazon.com/s3/)
 * [![Docker][Docker-badge]][Docker-url]
 
 <!-- GETTING STARTED -->
